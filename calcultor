@@ -34,7 +34,7 @@ input.place(x=0,y=0,width=250,height=50)
 btns_frame = Frame(win, bg="blue")
 btns_frame.pack()
 
-button_1 = Button(btns_frame, text="1", padx=20, pady=10, bg="red", command=lambda: btn_click(1))
+button_1 = Button(btns_frame, text="1", padx=20, pady=10, command=lambda: btn_click(1))
 button_2 = Button(btns_frame, text="2", padx=20, pady=10, command=lambda: btn_click(2))
 button_3 = Button(btns_frame, text="3", padx=20, pady=10, command=lambda: btn_click(3))
 button_4 = Button(btns_frame, text="4", padx=20, pady=10, command=lambda: btn_click(4))
